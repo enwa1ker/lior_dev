@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
+
+.bg {
+  background-image: url("../../Assets/image/AboutUs/aboutUs_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 422px;
+  padding-top: 145px;
+  padding-left: 128px;
+}
+
+.title {
+  width: 337px;
+  height: 132px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+}
+
+b{
+  color: #7BD554;
+}
+
+.history{
+  width: 1240px;
+  height: 416.91px;
+  top: 655px;
+  left: 100px;
+  gap: 51px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.history_left{
+  width: 590px;
+  height: 333px;
+  padding: 56px 0 0 0;
+  gap: 21px;
+
+}
+
+.history_name{
+  width: 372px;
+  height: 46px;
+  padding: 8px 23px 8px 23px;
+  gap: 10px;
+  border-radius: 6px;
+  background: #7BD554;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.145em;
+  text-align: center;
+}
+
+.about_text {
+  width: 566px;
+  height: 210px;
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #CECCCD;
+
+}
+
+h2{
+  gap: 21px;
+  width: 443px;
+  height: 42px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+
+
+.info_table {
+  gap: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1239px;
+  height: 302px;
+  top: 63.73px;
+  border-radius: 20px;
+  background: #181818;
+}
+
+.info_text {
+  width: 992px;
+  height: 112px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.team_text {
+  width: 1190px;
+  height: 90px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #CECCCD;
+}
+
+.team_table {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.people_text {
+  width: 366px;
+  height: 146.1px;
+  gap: 27px;
+}
+
+h6 {
+  width: 263px;
+  height: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.people_text > p {
+  width: 366px;
+  height: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #CECCCD;
+}
+

@@ -1,0 +1,65 @@
+.icon {
+    display: flex;
+    gap: 133px;
+    justify-content: flex-end;
+    padding-bottom: 9px;
+    padding-top: 19px;
+
+    .icon_block {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 15px;
+        }
+    }
+}
+
+
+.header {
+    background: url('../../Assets/image/Ramilya/bg_nav.png') top/ cover no-repeat;
+}
+
+.wrapper {
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav_title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.btn_nav {
+    font-family: 'Poppins', sans-serif;
+    width: 151px;
+    height: 35px;
+    border-radius: 7px;
+    padding: 10.5px 26px;
+    box-shadow: 0 0 34px 0 #e6a14b4d;
+    background: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 125%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}

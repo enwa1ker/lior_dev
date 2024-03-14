@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
+
+.bg {
+    background: url('../../Assets/image/Ramilya/bg_nav.png') center / cover no-repeat;
+    height: 90vh;
+}
+
+.lior_text {
+    padding-top: 130px;
+    max-width: 45%;
+    color: rgb(255, 255, 255);
+    font-size: 44px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    line-height: 126%;
+    letter-spacing: 6%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.btn_header {
+    margin-top: 45px;
+    width: 249px;
+    height: 51px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px rgba(230, 161, 75, 0.4);
+    background: rgb(230, 161, 75);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title {
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 120.83%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.services_wp {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 25px;
+}
+
+.services_img {
+    margin-top: 95px;
+    // margin: 156px auto 54px 0;
+    // margin: 86px auto 54px 0;
+}
+
+.services_right {
+    width: 40%;
+}
+
+.right_title {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.list {
+    margin-top: 69px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    li {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 24px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+
+        p {
+            text-transform: none;
+            margin-top: 16px;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 120.83%;
+            letter-spacing: 0%;
+        }
+    }
+}
+
+.el2 {
+    margin: 54px 0 87px 163px;
+}
+
+.project_wp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project_left {
+    width: 50%;
+    color: rgb(255, 255, 255);
+
+    h2 {
+        font-family: 'Roboto Slab', sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-family: 'Source Sans Pro', sans-serif;
+        margin-top: 16px;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 121%;
+        letter-spacing: 0%;
+    }
+}
+
+
+.wp_vectors {
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.vect_blocks {
+
+    div {
+        display: flex;
+        margin-bottom: 16px;
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 121%;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+
+        img {
+            padding-right: 20px;
+        }
+    }
+}
+
+
+.stamps_title {
+    margin: 50px 0 44px;
+    color: rgb(255, 255, 255);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.stamps_wrapper {
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    // gap: 44px;
+    margin-top: 44px;
+
+    .stamps_block_top {
+        flex-shrink: 0;
+        display: flex;
+        gap: 20px;
+        counter-reset: item;
+        justify-content: space-around;
+        min-width: 100%;
+        animation: scrolltop 20s linear infinite;
+    }
+
+    .stamps_block_down {
+        flex-shrink: 0;
+        display: flex;
+        gap: 20px;
+        counter-reset: item;
+        justify-content: space-around;
+        min-width: 100%;
+        animation: scrolldown 20s linear infinite;
+    }
+
+    @keyframes scrolldown {
+        from {
+            transform: translateX(calc(-50% - 20px));
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes scrolltop {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(calc(-60% - 20px));
+        }
+    }
+}
+
+.sect_portfolio {
+    margin: 50px 0;
+
+    .title_portfolio {
+        color: rgb(255, 255, 255);
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .link_portfolio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        text-transform: uppercase;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        text-align: center;
+        color: #ededed;
+    }
+}
+
+.partners_sect {
+    margin: 50px 0;
+
+}
+
+.partner_title {
+    color: rgb(255, 255, 255);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ellipse_top {
+    margin: 145px 0 10px 19px;
+}
+
+.brif_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.brif_title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.brif_btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 83%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px 163px;
+    width: 547px;
+    height: 60px;
+    box-shadow: 0 0 50px 0 rgba(232, 79, 85, 0.5);
+    background: rgb(230, 161, 75);
+}
+
+.ellipse_bottom {
+    float: right;
+    margin: 0 102px 49px 0;
+}
+
+@media (max-width:1440px) {
+    .bg {
+        background: url('../../Assets/image/Ramilya/bg_nav.png') center / cover no-repeat;
+        height: 190vh;
+    }
+
+    .lior_text {
+        max-width: 65%;
+    }
+
+    .form_left {
+        max-width: 50%;
+    }
+
+    .services_right {
+        max-width: 50%;
+    }
+}
